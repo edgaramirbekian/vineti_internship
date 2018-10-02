@@ -1,3 +1,4 @@
 *.pyc
 .vs/
 .node_modules/
+*.json
