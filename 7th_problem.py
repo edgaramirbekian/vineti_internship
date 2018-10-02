@@ -9,11 +9,11 @@
 from random import randint
 
 milion_list = [item for item in range(0,1000000)]
-print(milion_list)
+print(len(milion_list))
 random_index = randint(0,1000000)
 milion_list.remove(random_index)
 # to see that one element has vanished
-print(milion_list)
+print(len(milion_list))
 
 # we are done so let's find that number
 
